@@ -4,7 +4,10 @@
   "description": "Créez une fonction qui additionne deux entiers en Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "live-server --no-browser",
+    "cypress": "cypress run",
+    "e2e": "bash e2e.bash"
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,11 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
+    "@types/cypress": "^1.1.3",
     "@types/jest": "^27.0.3",
-    "babel-jest": "^27.4.2"
+    "babel-jest": "^27.4.2",
+    "concurrently": "^6.4.0",
+    "cypress": "^9.1.1",
+    "live-server": "^1.2.1"
   }
 }
