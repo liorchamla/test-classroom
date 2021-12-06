@@ -1,0 +1,29 @@
+{
+  "name": "test-classroom",
+  "version": "1.0.0",
+  "description": "Créez une fonction qui additionne deux entiers en Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liorchamla/test-classroom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liorchamla/test-classroom/issues"
+  },
+  "homepage": "https://github.com/liorchamla/test-classroom#readme",
+  "dependencies": {
+    "jest": "^27.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.4.2"
+  }
+}
